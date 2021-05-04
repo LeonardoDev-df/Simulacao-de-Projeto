@@ -17,7 +17,7 @@
 
 ## :purple_heart: Sobre o Simulação do Projeto
 
-<strong>Proffy</strong> é um projeto de desenvolvimento <strong>fullstack</strong> ( Web front-end + Back-end). Trata-se de um site para uma empresa de turismo de Brasília
+<strong>Essa Simulação </strong> é um projeto de desenvolvimento <strong>fullstack</strong> ( Web front-end + Back-end). Trata-se de um site para uma empresa de turismo de Brasília
 com objetivo de divulgar seus serviços e disponibilizar um formulário para o cliente entrar em contato.
 
 Esta versão foi desenvolvida em <strong>uma SEMANA 7 DIAS</strong><strong> Pelo Diretor de Projetos da Codamais EJ
