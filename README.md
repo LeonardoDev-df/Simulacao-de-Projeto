@@ -47,7 +47,6 @@ Principais bibliotecas utilizadas:
   $ git clone https://github.com/LeonardoDev-df/Simulacao-de-Projeto.git
 ```
 
-3. Rodar o ambiente de desenvolvimento:
 
 ## :coffee: Contato
 
