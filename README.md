@@ -9,7 +9,7 @@
     
 </h3>
 <br>
-div align="center">
+<div align="center">
    <a href="#tecnologias">Tecnologias</a> 
 </div>
 
