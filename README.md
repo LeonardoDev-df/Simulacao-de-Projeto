@@ -35,6 +35,20 @@ Principais bibliotecas utilizadas:
 
 - [JAVASCRIPT](https://devdocs.io/javascript/)
 
+## :running: Rodando o projeto
+
+1. Pré-requisitos:
+
+- ** O código está dentro da pasta [ simulação do projeto ]
+
+2. Clonar o repositório:
+
+```sh
+  $ git clone https://github.com/LeonardoDev-df/Simulacao-de-Projeto.git
+```
+
+3. Rodar o ambiente de desenvolvimento:
+
 ## :coffee: Contato
 
 <h4>
