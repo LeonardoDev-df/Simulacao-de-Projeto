@@ -1,4 +1,11 @@
-*{margin: 0; padding: 0;}
+*{
+	margin: 0;padding: 0;
+}
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
 
 /*logo*/
 header, img{
@@ -9,10 +16,10 @@ header, img{
 nav{
 	grid-area: m;
 	display: flex;
-	height: 30%;
+	height: 50%;
 	justify-content: center;
 	align-items: center;
-  margin-top: -152px;
+  margin-top: -150px;
 }
 a{
 	font:1.1rem 'Roboto', sans-serif;
@@ -38,9 +45,12 @@ p, h1{
 	grid-area: m;
 }
 
-form{
+section {
+	margin-top: 22px;
+}
+form{	
 	width: 400px;
-  margin-left: 480px;
+  	margin-left: 480px;
 }
 
 input, select, textarea{
@@ -98,11 +108,16 @@ input[type="submit"]:hover, input[type="reset"]:hover{
 	cursor: pointer;
 }
 
-footer{	
-  height: 25px;
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	width: 100%;
-	background-color: black;
-	color: #f5f3f3;
-	text-align: center;
-  justify-content: center;
+	height: 44px;	
+	background: #000;
+	color: #fff;
 }
+

@@ -1,121 +1,63 @@
-*{margin: 0; padding: 0;}
 
-body{}
-/* Grid */
-section{
-	display: grid;
-	grid-template-columns: 1fr 3fr 1fr;
-	grid-template-rows: 47vh 13vh 90vh 90vh 90vh 95vh 4vh;
-	grid-template-areas: 
-										"c c c"
-										"m m m"
-										"eco eco eco"
-										"rel rel rel"
-										"his his his"
-										"soc soc soc"
-										"f f f"
-	;
+*{scroll-behavior: smooth;}	
+
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
-/*logo*/
-header, img{
-	width: 100%;
+
+header img{
+	width: 1663px;
 	height: 380px;
-	max-width: 1400px;
-	grid-area: c;
+	margin-bottom: 111px;
 }
-/*menu*/
-nav{
-	width: 100%;
-	max-width: 1400px;
-	margin: auto;
-	grid-area: m;
+header nav{
 	display: flex;
-	height: 50%;
-	justify-content: space-around;
-	align-items: center;
+	justify-content: space-evenly;
+	position: relative;
+	bottom:200px;
+	margin-left: 88px;
+	margin-right: 88px;
 }
-a{
-	font:1.1rem 'Roboto', sans-serif;
+
+
+
+header nav a{
 	text-decoration: none;
-}
-.a-menu{
-
+	font-family: arial;
+	font-size: 1.2rem;
 	font-weight: bold;
+	color: #fff;
 }
 
-.a-menu:link, .a-menu:visited{
-	color:#FFF;
-}
-
-.a-menu:hover, .a-menu:active{
+header nav a:hover, header nav a:active{
 	color: #3F51B5;
 }
 
-
-
-#page-religioso{
-	width: 100%;
-	max-width: 1400px;
-	grid-area: rel;
-	background-color: green;
-	display: flex;
+section{
+	padding: 44px;
+	padding-bottom:111px;
+}
+section .flex-container{
+	display: flex;	
 }
 
-#page-historico{
-	width: 100%;
-	max-width: 1400px;
-	grid-area: his;
-	background-color: blue;
-	display: flex;
+section img{
+	width: 30%;	
+	margin-right: 88px;
 }
 
-#page-social{
-	width: 100%;
-	max-width: 1400px;
-	grid-area: soc;
-	background-color: yellow;
-	display: flex;
+section h1{
+	margin-bottom: 33px;
 }
 
-#page-cologico{
-	width: 100%;
-	max-width: 1400px;
-	grid-area: eco;
-	background-color: ;
-	display: flex;
-}
-
-.texto{
-	width: 500px;
-	height: 180px;
-	justify-content: left;
-	margin-left: 540px;
-	margin-top: -380px;
+section .texto{	
+	width: 30%;
 	font: 1rem 'Roboto', sans-serif;
 }
-.ecologic{
-	width: 390px;
-	height: 0px;
-	border: 1px solid #c4c4c4;
-	background-color: #f5f3f3;
-	margin: 30px;
-}
 
-.baixo{
-	margin-right: 540px;
-	margin-top: 210px;
-}
-
-footer{	
-	grid-area: f;
-	width: 100%;
-	max-width: 1400px;
-	background-color: black;
-	color: #f5f3f3;
-	text-align: center;
-}
-
-#back-to-top {
+#back-to-top{
 	width: 70px;
 	height: 70px;
 	border-radius: 50px;
@@ -128,4 +70,33 @@ footer{
 	color: #c4c4c4;
 	background-color: #c4c4c4;
 }
+
+#page-religioso{
+	background-color: green;
+}
+
+#page-historico{
+	background-color: blue;
+}
+
+#page-social{
+	background-color: yellow;
+}
+
+#page-cologico{	
+}
+
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* position: absolute;
+	bottom: 0;
+	left: 0;	 */
+	height: 44px;	
+	background: #000;
+	color: #fff;
+}
+
 
